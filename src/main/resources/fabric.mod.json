@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "cheatylib",
+  "version": "${version}",
+
+  "name": "CheatyLib",
+  "description": "Library mod used by my mods. Provides some utility",
+  "authors": [
+    "CheaterCodes"
+  ],
+  "contact": {
+    "sources": "https://github.com/CheaterCodes/CheatyLib"
+  },
+
+  "license": "MIT",
+  "icon": "assets/cheatylib/icon.png",
+
+  "environment": "*",
+  "mixins": [
+    "cheatylib.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

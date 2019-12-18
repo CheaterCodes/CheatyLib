@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.cheatercodes.cheatylib.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BlockEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
