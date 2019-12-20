@@ -3,7 +3,6 @@
   "package": "net.cheatercodes.cheatylib.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "BlockEntityMixin"
   ],
   "client": [
   ],
